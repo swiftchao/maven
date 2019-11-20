@@ -12,6 +12,5 @@ public class HelloMaven {
     public void test() {
         Assert.assertEquals("Hello Maven", new String("Hello Maven"));
         assertThat(new String("Hello Maven"), equalTo("Hello Maven"));
-        
     }
 }
